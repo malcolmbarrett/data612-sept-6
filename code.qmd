@@ -1,0 +1,14 @@
+---
+title: "Data 612 Sept 6"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+## Reading and writing data
+
+```{r}
+library(tidyverse)
+mtcars_from_file <- read_csv("data/mtcars.csv")
+mtcars_from_file
+```
